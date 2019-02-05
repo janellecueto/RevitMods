@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RevitAddIns>
+  <!--Random IDs :)-->
+<!--8195FDC2-5B44-43D8-9637-51E0967A9562-->
+<!--6595a1b3-875e-2f3f-11cd-4c1507c26295-->
+<!--34fc56b2-19a2-31c1-8901-41e341e26969-->
+<!--420a351e-fd1c-6921-1738-3f1b924a7824-->
+
+  <AddIn Type="Command">
+    <FullClassName>DEIMod.HelloWorld</FullClassName>
+    <Text>Hello World</Text> 
+    <Description>Displays "Hello World!" in dialog box</Description>
+    <Assembly>C:\Users\Janelle.DEI2\source\repos\DEIMod\DEIMod\bin\Debug\DEIMod.dll</Assembly>
+    <AddInId>502fe383-2648-4e98-adf8-5e6047f9dc34</AddInId>
+    <VendorId>ADNP</VendorId>
+    <vendorDescription>Autodesk, Inc. www.autodesk.com</vendorDescription>
+  </AddIn>
+</RevitAddIns>
