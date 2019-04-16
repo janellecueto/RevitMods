@@ -2,12 +2,110 @@
 
 <RevitAddIns>
   <!--Random IDs :)-->
-<!--8195FDC2-5B44-43D8-9637-51E0967A9562-->
-<!--6595a1b3-875e-2f3f-11cd-4c1507c26295-->
-<!--34fc56b2-19a2-31c1-8901-41e341e26969-->
-<!--420a351e-fd1c-6921-1738-3f1b924a7824-->
+<!--871a64ce-08b1-25c6-c2e2-5971f24d6a13-->
+  
 
+  <!--<AddIn Type="Application">
+    <FullClassName>DEIMod.CustomRibbon</FullClassName>
+    <Name>Custom Ribbon App</Name>
+    <Assembly>C:\Users\Janelle.DEI2\source\repos\DEIMod\DEIMod\bin\Debug\DEIMod.dll</Assembly>
+    <AddInId>49E64932-F4DA-4053-B795-3B4B7AE5C12C</AddInId>
+    <VendorId>DESK</VendorId>
+    <VendorDescription>Autodesk, Inc. www.autodesk.com</VendorDescription>
+  </AddIn>-->
+
+  <!--<AddIn Type="Application">
+    <FullClassName>DEIMod.CustomPane</FullClassName>
+    <Name>Custom Pane App</Name>
+    <Assembly>C:\Users\Janelle.DEI2\source\repos\DEIMod\DEIMod\bin\Debug\DEIMod.dll</Assembly>
+    <AddInId>34fc56b2-19a2-31c1-8901-41e341e26969</AddInId>
+    <VendorId>LMAO</VendorId>
+    <VendorDescription>Autodesk, Inc. www.autodesk.com</VendorDescription>
+  </AddIn>-->
+  <AddIn Type="Application">
+    <FullClassName>DEIMod.DEIRibbon</FullClassName>
+    <Name>Custom DEI Ribbon</Name>
+    <Assembly>C:\Users\Janelle.DEI2\source\repos\DEIMod\DEIMod\bin\Debug\DEIMod.dll</Assembly>
+    <AddInId>420a351e-fd1c-6921-1738-3f1b924a7824</AddInId>
+    <VendorId>ROFL</VendorId>
+    <VendorDescription>Autodesk, Inc. www.autodesk.com</VendorDescription>
+  </AddIn>
+  
   <AddIn Type="Command">
+    <FullClassName>DEIMod.ElectricalDevices</FullClassName>
+    <Text>Electrical Fixtures</Text>
+    <Description>Selects an electrical fixture</Description>
+    <Assembly>C:\Users\Janelle.DEI2\source\repos\DEIMod\DEIMod\bin\Debug\DEIMod.dll</Assembly>
+    <AddInId>12341234-5678-5678-abcd-ef1234567890</AddInId>
+    <VendorId>BUTT</VendorId>
+    <VendorDescription>Autodesk, Inc. www.autodesk.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <FullClassName>DEIMod.Communication</FullClassName>
+    <Text>Communication Devices</Text>
+    <Description>Selects a communications device</Description>
+    <Assembly>C:\Users\Janelle.DEI2\source\repos\DEIMod\DEIMod\bin\Debug\DEIMod.dll</Assembly>
+    <AddInId>871a64ce-08b1-25c6-c2e2-5971f24d6a13</AddInId>
+    <VendorId>ABCD</VendorId>
+    <VendorDescription>Autodesk, Inc. www.autodesk.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <FullClassName>DEIMod.DataDevices</FullClassName>
+    <Text>Data Devices</Text>
+    <Description>Selects a data device</Description>
+    <Assembly>C:\Users\Janelle.DEI2\source\repos\DEIMod\DEIMod\bin\Debug\DEIMod.dll</Assembly>
+    <AddInId>12345678-abcd-1234-f123-123456789abc</AddInId>
+    <VendorId>FFAA</VendorId>
+    <VendorDescription>Autodesk, Inc. www.autodesk.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <FullClassName>DEIMod.FireAlarm</FullClassName>
+    <Text>Fire Alarm Devices</Text>
+    <Description>Selects a fire alarm device</Description>
+    <Assembly>C:\Users\Janelle.DEI2\source\repos\DEIMod\DEIMod\bin\Debug\DEIMod.dll</Assembly>
+    <AddInId>5186a5bd-8b6e-7ab5-0cd4-121212121212</AddInId>
+    <VendorId>JELO</VendorId>
+    <VendorDescription>Autodesk, Inc. www.autodesk.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <FullClassName>DEIMod.Lighting</FullClassName>
+    <Text>Lighting Devices</Text>
+    <Description>Selects a lighting device</Description>
+    <Assembly>C:\Users\Janelle.DEI2\source\repos\DEIMod\DEIMod\bin\Debug\DEIMod.dll</Assembly>
+    <AddInId>425ba18e-72f7-980a-2fa0-56a4b7cd6a43</AddInId>
+    <VendorId>NONO</VendorId>
+    <VendorDescription>Autodesk, Inc. www.autodesk.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <FullClassName>DEIMod.NurseCall</FullClassName>
+    <Text>Nurse Call Devices</Text>
+    <Description>Selects a nurse call device</Description>
+    <Assembly>C:\Users\Janelle.DEI2\source\repos\DEIMod\DEIMod\bin\Debug\DEIMod.dll</Assembly>
+    <AddInId>7ab9e462-8711-a75b-16b9-25f31dc948b6</AddInId>
+    <VendorId>ALEX</VendorId>
+    <VendorDescription>Autodesk, Inc. www.autodesk.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <FullClassName>DEIMod.Security</FullClassName>
+    <Text>Security Devices</Text>
+    <Description>Selects a security device</Description>
+    <Assembly>C:\Users\Janelle.DEI2\source\repos\DEIMod\DEIMod\bin\Debug\DEIMod.dll</Assembly>
+    <AddInId>19a4623d-a456-91b5-a21c-4953f1f71738</AddInId>
+    <VendorId>KLEO</VendorId>
+    <VendorDescription>Autodesk, Inc. www.autodesk.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <FullClassName>DEIMod.Telephone</FullClassName>
+    <Text>Telephone Devices</Text>
+    <Description>Selects a telephone device</Description>
+    <Assembly>C:\Users\Janelle.DEI2\source\repos\DEIMod\DEIMod\bin\Debug\DEIMod.dll</Assembly>
+    <AddInId>96fe4d1b-231a-1251-60c2-fa431b569924</AddInId>
+    <VendorId>HALO</VendorId>
+    <VendorDescription>Autodesk, Inc. www.autodesk.com</VendorDescription>
+  </AddIn>
+  
+  
+  <!--<AddIn Type="Command">
     <FullClassName>DEIMod.HelloWorld</FullClassName>
     <Text>Hello World</Text> 
     <Description>Displays "Hello World!" in dialog box</Description>
@@ -15,5 +113,46 @@
     <AddInId>502fe383-2648-4e98-adf8-5e6047f9dc34</AddInId>
     <VendorId>ADNP</VendorId>
     <vendorDescription>Autodesk, Inc. www.autodesk.com</vendorDescription>
+  </AddIn>-->
+
+  <AddIn Type="Command">
+    <FullClassName>DEIMod.DBElement</FullClassName>
+    <Text>DB Element</Text>
+    <Description>Displays basic element information</Description>
+    <Assembly>C:\Users\Janelle.DEI2\source\repos\DEIMod\DEIMod\bin\Debug\DEIMod.dll</Assembly>
+    <AddInId>8195FDC2-5B44-43D8-9637-51E0967A9562</AddInId>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, Inc. www.autodesk.com</VendorDescription>
   </AddIn>
+
+  <AddIn Type="Command">
+    <FullClassName>DEIMod.ElementFiltering</FullClassName>
+    <Text>Element Filtering</Text>
+    <Description>Filters elements of category 'Electrical Fixtures'</Description>
+    <Assembly>C:\Users\Janelle.DEI2\source\repos\DEIMod\DEIMod\bin\Debug\DEIMod.dll</Assembly>
+    <AddInId>6595a1b3-875e-2f3f-11cd-4c1507c26295</AddInId>
+    <VendorId>AUTO</VendorId>
+    <VendorDescription>Autodesk, Inc. www.autodesk.com</VendorDescription>
+  </AddIn>
+
+  <AddIn Type="Command">
+    <FullClassName>DEIMod.PlaceGroup</FullClassName>
+    <Text>Place Group</Text>
+    <Description>Copy and place selected group</Description>
+    <Assembly>C:\Users\Janelle.DEI2\source\repos\DEIMod\DEIMod\bin\Debug\DEIMod.dll</Assembly>
+    <AddInId>32A64146-84FA-6021-AB95-2BFB1AE6D123</AddInId>
+    <VendorId>WHAT</VendorId>
+    <VendorDescription>Autodesk, Inc. www.autodesk.com</VendorDescription>
+  </AddIn>
+
+  <AddIn Type="Command">
+    <FullClassName>DEIMod.LoadFamily</FullClassName>
+    <Text>Load Family</Text>
+    <Description>Loads a hardcoded family from US Imperial library</Description>
+    <Assembly>C:\Users\Janelle.DEI2\source\repos\DEIMod\DEIMod\bin\Debug\DEIMod.dll</Assembly>
+    <AddInId>6969a12c-3167-4b60-583d-217a8b943c51</AddInId>
+    <VendorId>FFFF</VendorId>
+    <VendorDescription>Autodesk, Inc. www.autodesk.com</VendorDescription>
+  </AddIn>
+  
 </RevitAddIns>
